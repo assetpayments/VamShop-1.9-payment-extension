@@ -40,6 +40,10 @@
       }
     }
 
+    function javascript_validation() {
+      return false;
+    }
+	  
     function selection() {
 
       if (isset($_SESSION['cart_assetpayments_id'])) {
